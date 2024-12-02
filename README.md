@@ -3,7 +3,7 @@
 <br>
 
 # business problem
-This project aims to predict sales for each store for next 6 weeks
+Construction of a Regression algorithm to forecast sales 6 weeks in advance in a pharmacy chain, project will help the CFO decide which stores have enough budget to carry out reforms in their structure.
 
 <br>
 
