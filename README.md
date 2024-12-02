@@ -2,7 +2,7 @@
 
 <br>
 
-# Business Problem
+# business problem
 This project aims to predict sales for each store for next 6 weeks
 
 <br>
@@ -116,27 +116,27 @@ flowchart
 |-----|-----------------------------------------------------------|-------|----------------------------------------------------------------------------------------|
 | h01 | Stores with larger assortments should sell more           | False | Stores with a LARGER RANGE sell LESS                                                   |
 
-![img-name](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/img-name.png)
-![img-name](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/img-name.png)
-![img-name](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/img-name.png)
+![h1-1](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/hypothesis/h1-1.png)
+![h1-2](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/hypothesis/h1-2.png)
+![h1-3](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/hypothesis/h1-3.png)
 
 | #   | Hypothesis                                                | T / F | Comment                                                                                |
 |-----|-----------------------------------------------------------|-------|----------------------------------------------------------------------------------------|
 | h02 | Stores with closer competitors should sell less           | False | Stores with CLOSER COMPETITORS sell MORE                                               |
 
-![img-name](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/img-name.png)
+![h2](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/hypothesis/h2.png)
 
 | #   | Hypothesis                                                | T / F | Comment                                                                                |
 |-----|-----------------------------------------------------------|-------|----------------------------------------------------------------------------------------|
 | h03 | Stores with longer competitors should sell more           | False | Stores with COMPETITORS FOR LONGER SELL LESS                                           |
 
-![img-name](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/img-name.png)
+![h3](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/hypothesis/h3.png)
 
 | #   | Hypothesis                                                | T / F | Comment                                                                                |
 |-----|-----------------------------------------------------------|-------|----------------------------------------------------------------------------------------|
 | h04 | Stores with active promotions for longer should sell more | False | Stores with promotions active for longer sell less after a certain period of promotion |
 
-![img-name](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/img-name.png)
+![h4](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/hypothesis/h4.png)
 
 | #   | Hypothesis                                                | T / F | Comment                                                                                |
 |-----|-----------------------------------------------------------|-------|----------------------------------------------------------------------------------------|
@@ -149,44 +149,44 @@ flowchart
 | 1     | 0      | 1628930532  |
 | 1     | 1      | 1472275754  |
 
-![img-name](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/img-name.png)
+![h7](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/hypothesis/h7.png)
 
 | #   | Hypothesis                                                | T / F | Comment                                                                                |
 |-----|-----------------------------------------------------------|-------|----------------------------------------------------------------------------------------|
 | h08 | Stores open during the Christmas holiday should sell more | False | Stores open during the Christmas holidays sell less                                    |
 
-![img-name](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/img-name.png)
+![h8](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/hypothesis/h8.png)
 
 | #   | Hypothesis                                                | T / F | Comment                                                                                |
 |-----|-----------------------------------------------------------|-------|----------------------------------------------------------------------------------------|
 | h09 | Stores should sell more over the years                    | False | Stores sell less over the years                                                        |
 
-![img-name](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/img-name.png)
+![h9](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/hypothesis/h9.png)
 
 | #   | Hypothesis                                                | T / F | Comment                                                                                |
 |-----|-----------------------------------------------------------|-------|----------------------------------------------------------------------------------------|
 | h10 | Stores should sell more in the second half of the year    | False | Stores sell less in the second half of the year                                        |
 
-![img-name](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/img-name.png)
+![h10](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/hypothesis/h10.png)
 
 | #   | Hypothesis                                                | T / F | Comment                                                                                |
 |-----|-----------------------------------------------------------|-------|----------------------------------------------------------------------------------------|
 | h11 | Stores should sell more after the 10th of each month      | True  | Stores sell more after the 10th of each month                                          |
 
-![img-name](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/img-name.png)
+![h11](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/hypothesis/h11.png)
 
 | #   | Hypothesis                                                | T / F | Comment                                                                                |
 |-----|-----------------------------------------------------------|-------|----------------------------------------------------------------------------------------|
 | h12 | Stores should sell less on weekends                       | True  | Stores sell less on the weekend                                                        |
 
-![img-name](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/img-name.png)
+![h12](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/hypothesis/h12.png)
 
 
 | #   | Hypothesis                                                | T / F | Comment                                                                                |
 |-----|-----------------------------------------------------------|-------|----------------------------------------------------------------------------------------|
 | h13 | Stores should sell less during school holidays            | True  | Shops sell less during school holidays, except in July and August                      |
 
-![img-name](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/img-name.png)
+![h13](https://raw.githubusercontent.com/pmusachio/rossmann-store-sales/refs/heads/main/img/hypothesis/h13.png)
 
 ## multivariate analysis
 ### numerical attributes
