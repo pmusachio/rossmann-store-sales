@@ -7,9 +7,13 @@ import uvicorn
 app = FastAPI(title="Rossmann Store Sales Predictor API")
 
 # Load model here (requires saving model first, which occurs in train.py usually)
-# For demonstration purposes, we prepare the endpoint structure
+from pathlib import Path
+
+base_dir = Path(__file__).resolve().parents[2]
+model_path = base_dir / "models" / "model.pkl"
+
 try:
-    model_pipeline = joblib.load("model.pkl")
+    model_pipeline = joblib.load(model_path)
 except Exception:
     model_pipeline = None
 
