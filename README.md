@@ -62,7 +62,7 @@ After rigorous cross-validation and Optuna Bayesian tuning, the XGBoost model ac
 1. Clone the repository and navigate to the project directory:
    ```bash
    git clone git@github.com:pmusachio/rossmann-store-sales.git
-   cd rossmann-store-sales-project
+   cd rossmann-store-sales
    ```
 2. Install the requirements:
    ```bash
