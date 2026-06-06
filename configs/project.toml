@@ -1,0 +1,27 @@
+[project]
+name = "Rossmann Store Sales"
+slug = "rossmann_store_sales"
+problem_type = "time_series_regression"
+business_goal = "Forecast daily sales per store for the next 6 weeks and deliver an executive query via Telegram."
+primary_metric = "MAE, RMSE, MAPE, RMSPE"
+
+[data]
+train_file = "data/raw/train.csv"
+test_file = "data/raw/test.csv"
+store_file = "data/raw/store.csv"
+target = "sales"
+date_column = "date"
+id_columns = ["id"]
+
+[modeling]
+model_file = "models/model.joblib"
+validation_weeks = 6
+random_state = 42
+algorithm = "xgboost"
+n_estimators = 450
+learning_rate = 0.05
+max_depth = 8
+
+[deployment]
+api_route = "/rossmann/predict"
+telegram_route = "/rossmann/bot"
