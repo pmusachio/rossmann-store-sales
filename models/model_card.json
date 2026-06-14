@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "trained_at": "2026-06-14T22:19:52+00:00",
+  "dataset": "pratyushakar/rossmann-store-sales",
+  "data_sha256": "unknown",
+  "target": "Sales",
+  "problem": "daily store sales forecast (time-series regression)",
+  "best_model": "HistGradientBoostingRegressor",
+  "best_params": {
+    "model__max_leaf_nodes": 127,
+    "model__max_iter": 800,
+    "model__max_depth": null,
+    "model__learning_rate": 0.12073082874598748,
+    "model__l2_regularization": 1.0
+  },
+  "baseline": {
+    "model": "LinearRegression",
+    "rmse": 2755.3,
+    "mae": 1989.4,
+    "r2": 0.2225,
+    "rmspe": 0.4613
+  },
+  "holdout": {
+    "rmse": 1620.29,
+    "mae": 1052.97,
+    "r2": 0.7311,
+    "rmspe": 0.2471,
+    "slice_rmspe": {
+      "StoreType=a": 0.2882,
+      "StoreType=b": 0.1822,
+      "StoreType=c": 0.1937,
+      "StoreType=d": 0.186,
+      "Promo=0": 0.265,
+      "Promo=1": 0.2241
+    },
+    "n_holdout": 126651
+  },
+  "business": {
+    "headline": "Daily store sales are predicted within 24.7% (RMSPE); promotions lift average sales by about 39.6% in the holdout.",
+    "rmspe_pct": 24.7,
+    "promo_uplift_pct": 39.6
+  },
+  "top_features": [
+    {
+      "feature": "CompetitionDistance",
+      "importance": 1593.9
+    },
+    {
+      "feature": "StoreType",
+      "importance": 745.7
+    },
+    {
+      "feature": "Assortment",
+      "importance": 722.17
+    },
+    {
+      "feature": "Promo",
+      "importance": 712.15
+    },
+    {
+      "feature": "CompetitionOpenSinceYear",
+      "importance": 436.15
+    },
+    {
+      "feature": "DayOfWeek",
+      "importance": 387.81
+    },
+    {
+      "feature": "CompetitionOpenSinceMonth",
+      "importance": 167.66
+    },
+    {
+      "feature": "Date",
+      "importance": 102.22
+    }
+  ]
+}
