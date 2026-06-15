@@ -96,7 +96,7 @@ about **40%**, which the app lets a manager toggle to weigh promo cost against t
    ```
    streamlit run app/streamlit_app.py
    ```
-7. **Live app** — [huggingface.co/spaces/pmusachio/rossmann-store-sales](https://huggingface.co/spaces/pmusachio/rossmann-store-sales) — forecast a store-day and weigh a promotion.
+7. **Live app** — [rossmann-store-sales-50ob.onrender.com](https://rossmann-store-sales-50ob.onrender.com) — forecast a store-day and weigh a promotion.
 
 ## Next Steps
 
